@@ -38,7 +38,6 @@ function displayResults(weather) {
   if (weather.cod == 404) {
     TemplateDiv.innerHTML = error(weather.message);
   } else {
-    console.log(weather);
     let now = new Date();
 
     const tmpl = ` <p class="city"><b>${weather.name}, ${weather.sys.country}</b></p>
