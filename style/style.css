@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background:url("../images/bg.jpg") no-repeat fixed;
+    background-size: cover;
+    background-position: center center;
+}
+
+#weatherSec{
+    margin-top: 10vh;
+}
+
+
+
+#weatherTemplate {
+   background-color: rgba(255, 228, 196, 0.836);
+   border-radius: 20px;
+   box-shadow: 0px 0px 32px -12px bisque;
+   padding: 10px;
+}
+
+#weatherTemplate .city, .error{
+    font-size: 30px;
+}
+
+#weatherTemplate .Temp{
+    font-size: 50px;
+}
+
+#searchValve{
+        padding: 10px 15px;
+        border: none;
+        outline: none;
+        background-color: rgba(255, 255, 255, 0.3);
+        border-radius: 16px 0px 16px 0px;
+        border-bottom: 3px solid #DF8E00;
+        
+        color: #313131;
+        font-size: 20px;
+        font-weight: 300;
+        transition: 0.2s ease-out;
+      }
+      
+#searchValve:focus {
+        background-color: rgba(255, 255, 255, 0.6);
+      }
